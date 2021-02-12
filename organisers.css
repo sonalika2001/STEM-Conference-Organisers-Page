@@ -1,0 +1,8 @@
+:root{
+    --navColor:rgba(12, 53, 71, 0.8);
+    --titleBgColor:linear-gradient(270.14deg, rgba(73, 166, 173, 0.64) 0.11%, rgba(83, 118, 123, 0.8) 75.23%);
+    --shapeColor:linear-gradient(180deg, rgba(129, 207, 209, 0.7) 0%, rgba(73, 166, 173, 0.7) 100%);
+    --footerColor:linear-gradient(90.14deg, rgba(12, 53, 71, 0.9) 0.12%, rgba(83, 118, 123, 0.9) 99.87%);
+    --darkBlue:#0C3547;
+    
+}
