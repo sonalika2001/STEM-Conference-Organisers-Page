@@ -7,6 +7,35 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.title{
+  position:relative;
+  width: 100%;
+  height: 35%;
+  background: linear-gradient(270.14deg, rgba(73, 166, 173, 0.64) 0.11%, rgba(83, 118, 123, 0.8) 75.23%);
+  text-align: center;
+  padding: 6% 0;  
+  font-size: 600%;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-shadow: 0px 5px 16px rgba(0, 0, 0, 0.45);
+  line-height: 112px;
+}
+.intro-title{
+  margin: 5% 0 2% 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  color: #0C3547;
+}
+.intro{
+  text-align: center;
+  margin: 0 5%;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0C3547;
+}
 .honeycomb {
   display: flex; /*horizontal*/
   flex-wrap: wrap; /*multiline*/
@@ -14,7 +43,7 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 20%;
   padding: 0;
   transform: translateY(80px);
 }
@@ -96,11 +125,20 @@ body {
   margin: 0 12.5px;
 }
 
-/****** Responsive *******/
+/*Responsive */
 
 @media (max-width: 550px) {
   .honeycomb-cell {
     margin: 81.25px 25px;
+  }
+  .title{
+    font-size: 350%;
+  }
+  .intro-title{
+    font-size: 30px;
+  }
+  .intro{
+    font-size: 20px;
   }
 }
 
@@ -112,6 +150,15 @@ body {
 
   .honeycomb_Hidden:nth-child(3n + 5) {
     display: block;
+  }
+  .title{
+    font-size: 450%;
+  }
+  .intro-title{
+    font-size: 40px;
+  }
+  .intro{
+    font-size: 30px;
   }
 }
 
@@ -144,4 +191,5 @@ body {
   .honeycomb_Hidden:nth-child(7n + 11) {
     display: block;
   }
+ 
 }
